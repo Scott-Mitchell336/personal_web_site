@@ -1,58 +1,72 @@
-
-.body-class{
-    background-color: black;
+.body-class {
+  background-color: black;
 }
 
 .navbar {
-    background-color: darkgray;
-    overflow: hidden;
-    height: 70px;
-  }
-
-  .nav-list {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between; /* Change from flex-end to space-between */
-    align-items: center; /* Align items vertically */
+  background-color: darkgray;
+  overflow: hidden;
+  height: 70px;
 }
-  
+
+.nav-list {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Change from flex-end to space-between */
+  align-items: center; /* Align items vertically */
+}
+
 .left-just-nav-item {
-    margin-right: auto; /* Pushes the item to the left */
-    color: black;
-    /* padding: 14px 20px; */
-    text-decoration: none;
-    display: block;
-    font-size: 30px;
+  margin-right: auto; /* Pushes the item to the left */
+  color: black;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  /* font-family: Comic-sans; */
 }
-  
-  .nav-item {
-    margin: 0 0px;
-  }
 
-  .active-nav-item {
-    color: black;
-    border-bottom: 1px solid black;
-  }
-  
-  .nav-link {
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    display: block;
-  }
+.nav-item {
+  margin: 0 0px;
+}
 
-  .nav-link:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .main-text {
-    text-align: center;
-    margin-top: 100px;
-    color: white;
-  }
+.active-nav-item {
+  color: black;
+  border-bottom: 1px solid black;
+}
 
-  
+.nav-link {
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main-text {
+  text-align: center;
+  /* margin-top: 100px; */
+  color: white;
+}
+
+.main-content {
+  display: block;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  /* height: 100vh; */
+}
+
+.main-content-image{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
