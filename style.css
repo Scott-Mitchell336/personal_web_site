@@ -44,12 +44,6 @@
   display: block;
 }
 
-.nav-link:hover {
-  /* background-color: #ddd; */
-  /* background-color: darkgray; */
-  color: black;
-}
-
 .main-text {
   text-align: center;
   color: white;
