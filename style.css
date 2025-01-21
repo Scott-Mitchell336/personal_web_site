@@ -50,20 +50,36 @@
 }
 
 .main-content {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  grid-template-rows: 250px 1fr;
+
   text-align: left;
   color: white;
   font-size: 20px;
-  margin-left: 20px;
+  margin: 20px;
+  /* margin-left: 20px;
   margin-top: 20px;
   margin-right: 20px;
+  margin-bottom: 20px; */
 }
 
 .main-content-image {
+  grid-area: 1 / 2 / 2 / 3;
   width: 200px;
   height: 200px;
   float: right;
   margin-left: 15px;
+}
+
+.main-top-text{
+  grid-area: 1 / 1 / 2 / 2;
+  margin-right: 15px;
+}
+
+.main-bottom-text {
+  grid-area: 2 / 1 / 3 / 3;
+  margin-right: 15px;
 }
 
 .about-section {
@@ -97,11 +113,13 @@
 }
 
 .copy-right-text {
+  display: flex;
+  align-items: center; /* Vertically centers the text */
+  justify-content: center; /* Horizontally centers the text */
   text-align: center;
-  color: white;
-  font-size: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  background-color: darkgray;
+  padding: 10px;
+  height: 40px;
 }
 
 .portfolio-section {
