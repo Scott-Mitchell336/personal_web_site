@@ -21,6 +21,7 @@ This website serves as an online portfolio and personal blog for Scott Mitchell.
 - **Home Page**: Introduction and overview of Scott Mitchell.
 - **About Page**: Detailed information about Scott's background and interests.
 - **Portfolio Page**: Showcase of Scott's projects and accomplishments.
+- **Contact Page**: Shows contact page.
 - **Responsive Design**: Optimized for various devices and screen sizes.
 
 ## Technologies Used
